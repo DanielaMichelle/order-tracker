@@ -1,0 +1,17 @@
+# .gitignore en la raíz del proyecto
+
+# --- BACKEND ---
+orders-app-backend/node_modules/
+orders-app-backend/postgres/
+orders-app-backend/.env
+orders-app-backend/src/generated/prisma/
+
+# --- FRONTEND ---
+orders-app-frontend/node_modules/
+orders-app-frontend/.next/
+
+# --- General ---
+.env
+.DS_Store
+.vscode/
+*.log
